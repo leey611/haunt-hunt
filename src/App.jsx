@@ -42,7 +42,7 @@ function App() {
         <p>2 detective has a radar to get the ghost's location, a _ to set a trap to slow down the ghost, _ to extend field of view, _ to reveal the front area. </p>
       </SimpleSlide>
       <SimpleSlide viewportPosition={300}>
-        <p>3 ghost can use _ to place a moving duplicate, (if a duplicate is killed, detective's movements get disturbed for a few seconds), _ to be immune and invisible from the detective's light, and able to go through the walls for 5 seconds, _ to teleport to a random location.</p>
+        <p>3 ghost can use _ to place a moving duplicate, if a duplicate is killed, detective's movements get disturbed for a few seconds, _ to be immune and invisible from the detective's light, and able to go through the walls for 5 seconds, _ to teleport to a random location.</p>
       </SimpleSlide>
       <SimpleSlide viewportPosition={400}>
         <h2>4 acrylic top</h2>
@@ -64,26 +64,6 @@ function App() {
         <h2>credit</h2>
       </SimpleSlide>
       <Scene />
-      {/* <div>
-        <a href="https://vitejs.dev" target="_blank">
-          <img src={viteLogo} className="logo" alt="Vite logo" />
-        </a>
-        <a href="https://react.dev" target="_blank">
-          <img src={reactLogo} className="logo react" alt="React logo" />
-        </a>
-      </div>
-      <h1>Vite + React</h1>
-      <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
-      </div>
-      <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
-      </p> */}
     </article>
   )
 }
