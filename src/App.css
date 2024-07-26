@@ -15,8 +15,10 @@ body {
 }
 
 #canvas_wrapper {
-  position: -webkit-sticky; /* Safari */
-  position: sticky;
+  /* Safari */
+  /* position: -webkit-sticky; 
+  position: sticky; */
+  position: fixed;
   top: 0;
   width: 100vw;
   height: 100vh;
