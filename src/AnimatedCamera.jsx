@@ -56,46 +56,8 @@ function AnimatedCamera() {
             "toAcrylicView"
         )
         
-        // to speaker view
-        CameraTimeline.to(
-            cameraRef.current.position,
-            {
-                x: -0.5,
-                y: 0,
-                z: 5,
-                // y: 5,
-                // z: -1.67
-            },
-            "toSpeakerView"
-        )
-        CameraTimeline.to(
-            cameraRef.current.rotation,
-            {
-                x: 0,//-Math.PI/2,
-                z: 0,//Math.PI/3
-            },
-            "toSpeakerView"
-        )
-        // CameraTimeline.to(
-        //     cameraRef.current.position,
-        //     {
-        //         y: 8,
-        //         z: -1.67
-        //     },
-        //     "slide4-5"
-        // )
-        // CameraTimeline.to(
-        //     cameraRef.current.rotation,
-        //     {
-        //         x: -Math.PI/2,
-        //         z: Math.PI/3
-        //     },
-        //     "slide4-5"
-        // )
-
-        // 5-6
-        
-        CameraTimeline.to(
+        // to controls view
+         CameraTimeline.to(
             cameraRef.current.position,
             {
                 x: 1.8,
@@ -113,17 +75,28 @@ function AnimatedCamera() {
             },
             "toControlsView"
         )
+        
+        // to speaker view
+        CameraTimeline.to(
+            cameraRef.current.position,
+            {
+                x: -0.5,
+                y: 0,
+                z: 5,
 
-        // 6-7
-        // CameraTimeline.to(
-        //     cameraRef.current.position,
-        //     {
-        //         x: 1.5,
-        //         y: 0,
-        //         z: -13
-        //     },
-        //     "slide6-7"
-        // )
+            },
+            "toSpeakerView"
+        )
+        CameraTimeline.to(
+            cameraRef.current.rotation,
+            {
+                x: 0,//-Math.PI/2,
+                z: 0,//Math.PI/3
+            },
+            "toSpeakerView"
+        )
+        
+        // to storage
         CameraTimeline.to(
             cameraRef.current.position,
             {

@@ -49,12 +49,12 @@ function App() {
         <p>on the top of the arcade is an laser cut acrylic that serves as a screen protector for the external monitor.</p>
       </SimpleSlide>
       <SimpleSlide viewportPosition={500}>
-        <h2>5 speaker</h2>
-        <p>the hole on the front side of the cabinet is where the souund speaker is put.</p>
-      </SimpleSlide>
-      <SimpleSlide viewportPosition={600}>
         <h2>6 controls</h2>
         <p>buttons and joysticks are located on the platforms on the sides.</p>
+      </SimpleSlide>
+      <SimpleSlide viewportPosition={600}>
+        <h2>6 speaker</h2>
+        <p>the hole on the front side of the cabinet is where the souund speaker is put.</p>
       </SimpleSlide>
       <SimpleSlide viewportPosition={700}>
         <h2>7 storage</h2>
