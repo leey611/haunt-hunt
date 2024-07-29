@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+html {
+  background-color: #000;
+}
+
 body {
   font-family: 'Rubik Variable', sans-serif;
 }

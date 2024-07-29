@@ -13,7 +13,7 @@ function Scene() {
                 <pointLight position={[-5, 2, 0]} intensity={40} />
                 <pointLight position={[0, 0, -10]} intensity={30} />
                 {/* <pointLight position={[0, 80, -200]} intensity={10000} /> */}
-                <color args={["black"]} attach={"background"}/>
+                {/* <color args={["black"]} attach={"background"}/> */}
                 {/* <OrbitControls /> */}
                 <Suspense fallback={null}>
                     <CabinetModel />
